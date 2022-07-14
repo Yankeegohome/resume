@@ -1,0 +1,112 @@
+body {
+    margin: 10px;
+    background-color: rgb(77, 67, 61);
+}
+.profile {
+    border-radius: 25px;
+}
+.photo {
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px;
+    margin: 10px;
+
+}
+.boxPhoto {
+    background:  rgb(225, 223, 223);
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.aboutme {
+    background: rgb(225, 223, 223);
+    display: flex;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    
+
+}
+.boxHeader {
+    margin-right: 25px;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+.header ul li {
+    padding: 10px;
+    padding-right: 20px;
+
+}
+.header ul li:hover {
+    background: #dbd9d9;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.header{
+    background: rgb(243, 242, 242);
+    padding: 1px 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.container {
+    margin: auto;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all .2s;
+}
+a:hover {
+    color: orange;
+    font-size: 1.5rem;
+}
+a:visited {
+    color: rgb(227, 146, 23); 
+}
+a:active {
+    color: rgb(47, 47, 46);
+}
+.navigate {
+    background: rgb(94, 76, 68);
+    display: block;
+    position: fixed;
+    top: 200px;
+    right: 17px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background: rgba(62, 15, 4, 0.5);
+}
+.navigate ul {
+    list-style: none;
+    padding-left: 10px;
+}
+.navigate ul li {
+    font-size: 20px;
+}
+.container p {
+    color: white;
+}
+.links {
+    display: flex;
+}
+.links .link {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.container p {
+    background: rgb(243, 242, 242);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(77, 67, 61);
+
+}
